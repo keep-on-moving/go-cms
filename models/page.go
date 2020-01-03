@@ -21,7 +21,7 @@ func GetPage() Page {
 	p := Page{Id:1}
 	err := o.Read(&p)
 	fmt.Print(err)
-	
+
 	return p
 }
 
