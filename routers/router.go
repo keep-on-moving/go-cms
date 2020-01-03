@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"go-project/controllers"
+	"go-cms/controllers"
 	"github.com/astaxie/beego"
 )
 
