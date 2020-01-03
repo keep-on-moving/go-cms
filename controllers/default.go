@@ -12,6 +12,7 @@ type MainController struct {
 func (c *MainController) Get() {
 	//c.Data["Website"] = "111.me"
 	//c.Data["Email"] = "astaxie@gmail.com"
+	models.UpdatePage()
 	var param = models.GetPage()
 
 	c.Data["Website"] = param.Website
