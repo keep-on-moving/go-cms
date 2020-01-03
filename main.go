@@ -4,6 +4,7 @@ import (
 	_ "go-cms/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
+	_ "go-cms/sysinit"
 )
 
 func main() {

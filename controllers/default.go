@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"go-cms/models"
-	"github.com/astaxie/beego/logs"
+	//"github.com/astaxie/beego/logs"
 )
 
 type MainController struct {
